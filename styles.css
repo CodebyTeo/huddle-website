@@ -1,0 +1,166 @@
+
+body {
+    background-image: url("images/bg-desktop.svg");
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: font-family: 'Montserrat', sans-serif;
+}
+
+
+.icon_1 {
+    height: 30px;
+    width: 30px;
+    color: white;
+    margin-top: 150px;
+    cursor: pointer;
+    margin-left: 0px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+
+}
+.icon_1:hover {
+    transform: translateY(-10px);
+    background-color: hsl(300, 69%, 71%);
+    transition: all 1s;
+
+}
+.icon_2:hover {
+    transform: translateY(-10px);
+    background-color: hsl(300, 69%, 71%);
+    transition: all 1s;
+
+}
+.icon_3:hover {
+    transform: translateY(-10px);
+    background-color: hsl(300, 69%, 71%);
+    transition: all 1s;
+
+}
+
+.icon_2 {
+    height: 30px;
+    width: 30px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 150px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.icon_3 {
+     height: 30px;
+     width: 30px;
+     border: 1px solid white;
+     border-radius: 10px;
+     color: white;
+     margin-top: 150px;
+     cursor: pointer;
+     margin-left: 30px;
+}
+.container {
+    display: flex;
+    width: 1500px;
+    padding: 50px;
+
+}
+.right {
+    width: 900px;
+    margin-top: 200px;
+}
+
+.left {
+    padding-right: 40px;
+
+}
+h1 {
+    line-height: 1.5;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+p {
+    line-height: 1.5;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    margin-bottom: 40px
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    width: 150px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    transform: translateY(-10px);
+    background-color: hsl(300, 69%, 71%);
+    transition: all 1s;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+        padding-left: 100px;
+        padding-right: 100px;
+        .right {
+            margin-left: 150px;
+            text-align: center;
+        }
+
+
+    }
+    body{
+        background-image: url("images/bg-mobile.svg");
+
+    }
+
+    }
+    .container h1 {
+        font-size: 30px;
+
+    }
+    .right {
+        width: 100%;
+       .icon{
+            width: 100%;
+        }
+
+
+
+    }
+    .left {
+        width: 100%;
+
+    }
+    .logo{
+    padding-top: 50px;
+    margin-bottom: 80px;
+    }
+    form {
+        width: 100%;
+    }
+    .bg {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    }
+
+
